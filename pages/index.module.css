@@ -1,0 +1,11 @@
+.card {
+  background-color: --var(--theme-ui-colors-background);
+  border-radius: 8px;
+  box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in 0s;
+}
+
+.card:hover {
+  background-color: --var(--theme-ui-colors-background);
+  box-shadow: 2px 2px 18px 0 rgba(0, 0, 0, 0.15);
+}
